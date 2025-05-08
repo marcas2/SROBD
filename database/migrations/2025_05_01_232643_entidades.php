@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('descripcion');
             $table->string('port');
             $table->string('db'); 
+            $table->string('version'); 
             $table->string('url'); 
             $table->timestamps();
         });

@@ -63,4 +63,9 @@ class SrobdController extends Controller
     {
         //
     }
+    public function maria()
+    {
+        echo "Empieza restauración de base de datos";
+        exit;
+    }
 }

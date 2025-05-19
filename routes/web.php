@@ -10,5 +10,5 @@ Route::get('/', [EntidadesController::class, 'index'])->name('entidades.index');
 
 Route::get('/entidades', [EntidadesController::class, 'show'])->name('entidades.index');
 
-Route::post('/maria', [SrobdController::class, 'maria'])->name('entidades.maria');
+Route::post('/srobd', [SrobdController::class, 'srobd'])->name('entidades.srobd');
 

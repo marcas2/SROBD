@@ -106,7 +106,7 @@
             
             <!-- Cuerpo del formulario -->
             <div class="p-8">
-            <form action="/maria" method="POST" class="space-y-6">
+            <form action="/srobd" method="POST" class="space-y-6">
     @csrf
     
     <!-- Campo Entidad -->
@@ -175,7 +175,7 @@
             <button type="button" id="ofuscacion-toggle" class="w-12 h-6 flex items-center bg-primary-600 rounded-full p-1 duration-300 ease-in-out">
                 <span class="toggle-dot bg-white w-4 h-4 rounded-full shadow-md transform translate-x-6 duration-300 ease-in-out"></span>
             </button>
-            <span class="ml-3 text-sm font-medium text-gray-700">Activado</span>
+            
         </div>
     </div>
 </div>
